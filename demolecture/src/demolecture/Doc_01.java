@@ -12,7 +12,31 @@ public class Doc_01 {
 	// 조건 중 해당되는 조건문을 해석하고 종료함.
 
 	// ===============================
-	// 1. if
+	// 1. if 
+	
+	/*
+	int num = 3;
+	if(num > 0) {
+		System.out.println("양수 입니다.");
+	}
+	
+	if(num <= 0) {
+		System.out.println("양수가 아닙니다.");
+	}
+	
+	// 위코드는 비효율적임
+	// 이미 위의 조건식에서 양수인것이 판별되었는데 아래 조건식을 또 수행하게됨
+	// 이럴 때 조건식에서 true값이 아니라면 false에 대한 수행값을 함께 쓸 수 있는 else 문을 사용함
+	 
+	 ==== else 사용 ====
+	 
+	 if(num > 0) {
+	 	System.out.println("양수 입니다.");
+	 } else {
+	 	System.out.println("양수가 아닙니다.");
+	 }
+	 * */
+
 	/*
 	 int num = 2;
 	System.out.println(num +"은(는)");
@@ -32,7 +56,7 @@ public class Doc_01 {
 	
 	// ===============================
 	
-	// 2. if else 
+	// 2. else if
 	/*
 	 * 
 	 * int grade = 1;
