@@ -29,7 +29,14 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
+		Doc_01 doc1 = new Doc_01();
+		doc1.method1();
 		
+		Doc_02 doc2 = new Doc_02();
+		//doc2.method1();
+		
+		Doc_03 doc3 = new Doc_03();
+		//doc3.method1();
 	}
  
 }
